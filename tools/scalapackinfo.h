@@ -1,0 +1,1 @@
+extern void scalapackinfo( int* m, int* n, int* nrhs, int* mb, int* nb, int* nb_rhs, int* nprow, int* npcol, int iamIOproc, int* num_procs, char* infile_name, char* file_prefix, char* usr_info, int* status );
