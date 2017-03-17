@@ -7,8 +7,8 @@ PLAT = LINUX
 INCBLAS = -I./include
 INCTOOLS = -I./tools
 
-LIBSCALAPACK = -L/MY/PATH/scalapack_1.0.2/lib -lscalapack
-LIBBLAS = -L/MY/PATH/scalapack_1.0.2/lib -lrefblas
-LIBLAPACK = -L/MY/PATH/scalapack_1.0.2/lib -ltmg -lreflapack
+LIBSCALAPACK = -L/MY/PATH/ -lscalapack
+LIBBLAS = -L/MY/PATH/ -lrefblas
+LIBLAPACK = -L/MY/PATH/ -ltmg -lreflapack
 SCALAPACK = $(LIBSCALAPACK) $(LIBLAPACK) $(LIBBLAS) 
 
